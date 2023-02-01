@@ -1,0 +1,30 @@
+.header {
+    margin: auto;
+    margin-top: 67px;
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .marvel-info {
+    margin-left: 15px;
+    width: 350px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  
+  .marvel-links {
+    margin-top: 5px;
+    width: 200px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .color-red {
+   color: #9F0013;
+  }

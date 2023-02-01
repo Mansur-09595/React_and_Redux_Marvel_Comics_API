@@ -1,0 +1,51 @@
+.wrapper {
+  position: relative;
+  width: 1100px;
+  margin: auto;
+}
+
+.block-flex,
+.blocks-random-heroes {
+  display: flex;
+  margin-top: 50px;
+}
+
+.marvel-carts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 650px;
+}
+
+.marvel-cart {
+  background-color: #232222;
+  color: #ffffff;
+  width: 200px;
+  height: 318px;
+}
+
+.heroes-img {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.heroes-name {
+  margin: 15px;
+  min-width: 170px;
+  height: 29px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.load-more {
+  margin: 30px 0px 45px 252px;
+  width: 170px;
+    height: 42px;
+    clip-path: polygon(-40px 100%, 0% 100%, 50px 60px, 150% 40%, 100px -50px);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #9F0013;
+}
