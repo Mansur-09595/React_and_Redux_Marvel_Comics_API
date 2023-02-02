@@ -5,7 +5,7 @@
 }
 
 .about-hero {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .about-hero-flex {
@@ -99,13 +99,13 @@
 }
 
 .try-it {
-    width: 101px;
-    height: 42px;
-    clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    background: #9F0013;
+  width: 101px;
+  height: 42px;
+  clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
 }
 
 .capitan-thor {

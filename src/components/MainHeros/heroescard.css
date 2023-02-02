@@ -1,63 +1,64 @@
 .about-hero-right-block {
-    margin-left: 25px;
-    width: 425px;
-    height: 350px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  margin-left: 25px;
+  width: 425px;
+  height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 .heroes-img-right-block {
-    margin: 25px;
-    width: 150px;
-    height: 163.55px;
+  margin: 25px;
+  width: 150px;
+  height: 163.55px;
 }
 
 .about-hero-flex-right-block {
-    display: flex;
+  display: flex;
 }
 
 .more-info-right-block {
-    margin-top: 20px;
-    margin-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .name-heroes-right-block {
-    margin-bottom: 40px;
-    min-width: 42px;
-    height: 32px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+  margin-bottom: 40px;
+  min-width: 42px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
 }
 
-.homepage-right-block, .wiki-right-block {
-    width: 101px;
-    height: 42px;
-    clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    background: #9F0013;
+.homepage-right-block,
+.wiki-right-block {
+  width: 101px;
+  height: 42px;
+  clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
 }
 
 .wiki-right-block {
-    margin-top: 10px;
-    background: #5C5C5C;
+  margin-top: 10px;
+  background: #5c5c5c;
 }
 
 .description-right-block {
-    margin-left: 25px;
-    width: 375px;
-    height: 139.56px;
-    font-size: 14px;
-    line-height: 16px;
+  margin-left: 25px;
+  width: 375px;
+  height: 139.56px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .vision {
-    position: absolute;
-    right: -190px;
-    bottom: 0px;
+  position: absolute;
+  right: -190px;
+  bottom: 0px;
 }

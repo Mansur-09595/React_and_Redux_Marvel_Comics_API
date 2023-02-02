@@ -4,8 +4,12 @@
   margin: auto;
 }
 
-.block-flex,
 .blocks-random-heroes {
+  display: flex;
+  margin-top: 80px;
+}
+
+.block-flex {
   display: flex;
   margin-top: 50px;
 }
@@ -40,12 +44,12 @@
 }
 
 .load-more {
-  margin: 30px 0px 45px 252px;
+  margin: 45px auto 45px;
   width: 170px;
-    height: 42px;
-    clip-path: polygon(-40px 100%, 0% 100%, 50px 60px, 150% 40%, 100px -50px);
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    background: #9F0013;
+  height: 42px;
+  clip-path: polygon(-40px 100%, 0% 100%, 50px 60px, 150% 40%, 100px -50px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
 }

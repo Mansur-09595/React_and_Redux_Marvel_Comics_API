@@ -10,7 +10,6 @@ import AboutComics from './components/AboutComics/AboutComics';
 
 function App() {
   const characters = useSelector((state) => state.characters);
-  console.log(characters);
   const [selectedCharacter, setSelectedCharacter] = useState({});
   const [cards, setCards] = useState(9)
   const dispatch = useDispatch()
@@ -44,7 +43,6 @@ function App() {
   
   return (
     <div className="App">
-      
         <Navbar />
         <Routes>
           <Route path="/" 

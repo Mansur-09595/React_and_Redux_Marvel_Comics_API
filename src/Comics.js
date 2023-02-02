@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
-import './Comics.css'
-import { Link } from 'react-router-dom';
+import ComicsPage from './components/ComicsPage/ComicsPage';
 
 function Comics() {
     const comics = useSelector((state) => state.comics)
@@ -31,22 +30,7 @@ function Comics() {
 
       return (
         <div className="Comics">
-          <div className="wrapper">
-            <div className="block-flex">
-                <div className="marvel-carts">
-                {comics.slice(0, cardsComics).map((item) => (
-                    <div className="marvel-cart" key={item.id}>
-                    <Link to={`/comics/${item.id}`} >
-                    <img className="heroes-img" src={`${item.thumbnail?.path}.${item.thumbnail?.extension}`}/>
-                    </Link>
-                    <div className="heroes-name">{item.title}</div>
-                    <div className="heroes-name">{item.prices[0].price}$</div>
-                    </div>
-                ))}
-                <button className="load-more" onClick={loadCardsComics}>LOAD MORE</button>
-                </div>
-            </div>
-          </div>
+          <ComicsPage comics={comics} cardsComics={cardsComics} loadCardsComics={loadCardsComics} />
         </div>
       )
 

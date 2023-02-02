@@ -25,7 +25,7 @@ const AboutHeroLinks = () => {
             <div className="about-hero-flex">
               <img className="heroes-img-first-block" src={`${selectedRandomCharacter.thumbnail?.path}.${selectedRandomCharacter.thumbnail?.extension}`} />
               <div className="more-info">
-                <h2 className="name-heroes">{selectedRandomCharacter.name}</h2>
+                <h2 className="name-heroes">{selectedRandomCharacter.name.length > 16 ? `${selectedRandomCharacter.name.substring(0, 16)}...` : selectedRandomCharacter.name}</h2>
                 <p className="description">
                   {selectedRandomCharacter.description}
                 </p>
