@@ -11,7 +11,7 @@ const AboutHero = () => {
         <NavHero />
         <div className="about-hero">
           <div className="about-hero-flexs">
-            <img className="heroes-img-second-blocks" src={`${selectedCharacter.thumbnail?.path}.${selectedCharacter.thumbnail?.extension}`} />
+            <img className="heroes-img-second-blocks" src={`${selectedCharacter.thumbnail?.path}.${selectedCharacter.thumbnail?.extension}`} alt={selectedCharacter.name}/>
             <div className="more-infos">
               <h2 className="name-heroes">{selectedCharacter.name}</h2>
               <p className="description">{selectedCharacter.description}</p>

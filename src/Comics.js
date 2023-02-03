@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from "react-redux";
-import ComicsPage from './components/ComicsPage/ComicsPage';
+import ComicsCards from './components/ComicsPage/ComicsCards';
+import NavHero from './components/Navbar/NavHero';
 
 function Comics() {
     const comics = useSelector((state) => state.comics)
@@ -9,7 +10,6 @@ function Comics() {
 
     function loadCardsComics () {
         setCardsComics(cardsComics + 4)
-        fetchDataComics()
     }
 
     async function fetchDataComics() {
@@ -29,9 +29,11 @@ function Comics() {
       }, [])
 
       return (
-        <div className="Comics">
-          <ComicsPage comics={comics} cardsComics={cardsComics} loadCardsComics={loadCardsComics} />
-        </div>
+        <>
+        <NavHero />
+        <ComicsCards comics={comics} cardsComics={cardsComics} />
+        <button className="load-more" onClick={loadCardsComics}>LOAD MORE</button>
+        </>
       )
 
 }

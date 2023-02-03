@@ -22,10 +22,32 @@
 }
 
 .marvel-cart {
+  background: rgba(255, 255, 255, 0);
+  transition: 0.5s ease-out 10ms;
   background-color: #232222;
   color: #ffffff;
   width: 200px;
   height: 318px;
+}
+
+/* .nav-title {
+  border: none;
+  color: white;
+  width: 94px;
+  height: 34px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  border-radius: 25px;
+  
+} */
+
+.marvel-cart:hover {
+  filter: drop-shadow(0px 5px 20px #9F0013);
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-transform: scale(2);
+  transform: translate(0, -10px) scaleY(1);
 }
 
 .heroes-img {
@@ -44,10 +66,12 @@
 }
 
 .load-more {
+  display: block;
+  border: none;
   margin: 45px auto 45px;
   width: 170px;
   height: 42px;
-  clip-path: polygon(-40px 100%, 0% 100%, 50px 60px, 150% 40%, 100px -50px);
+  clip-path: polygon(-40px 38px, 0% 100%, 40px 90px, 230px 0px, 80px -40px); 
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;

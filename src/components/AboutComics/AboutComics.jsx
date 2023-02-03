@@ -13,13 +13,13 @@ const AboutComics = () => {
       <NavHero />
         <div className="about-comics">
           <div className="about-comics-flex">
-            <img className="comics-img-second-block" src={`${selectedComics.thumbnail?.path}.${selectedComics.thumbnail?.extension}`} />
+            <img className="comics-img-second-block" src={`${selectedComics.thumbnail?.path}.${selectedComics.thumbnail?.extension}`} alt={selectedComics.title}/>
             <div className="more-comics">
               <h2 className="title-comics">{selectedComics.title}</h2>
               <p className="description-comics">{selectedComics.description}</p>
               <p className="pageCount-comics">{selectedComics.pageCount} pages</p>
               <p>Language: en-us</p>
-              <span className="price-comics">{selectedComics.prices[0].price} $</span>
+              <span className="price-comics">{selectedComics.prices[0].price === 0 ? "NOT AVAILABLE" : `${selectedComics.prices[0].price} $`} </span>
             </div>
             <div className="back">
             <Link to="/comics">

@@ -22,6 +22,13 @@
   width: 225px;
   height: 346px;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+  transition: 0.5s ease-out 10ms;
+}
+
+.comics-img:hover {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+  -webkit-transform: scale(2);
+  transform: translate(0, -10px) scaleY(1);
 }
 
 .comics-title {
@@ -34,7 +41,7 @@
 
 .comics-price {
   margin-top: 5px;
-  width: 33px;
+  min-width: 33px;
   height: 18px;
   font-weight: 700;
   font-size: 14px;
