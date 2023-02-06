@@ -2,7 +2,6 @@ const initialState = {
     characters: [],
     comics: [],
 }
-console.log(initialState);
 
 const reducer = (state = initialState, action) => {
     switch(action.type) {
